@@ -1,0 +1,101 @@
+/********************************/
+/* CSS PARA EL DOCUEMNTO BOLETA */
+/********************************/
+
+/*
+	REALIZADO POR: 	JONATAN RIVERA C.
+	FECHA:			24/09/2011
+	DESCRIPTION:	CSS PARA LAS IMPRESIONES DE BOLETA.
+*/
+
+body 
+{
+	font-size:80%;
+	background-color:rgb(255,255,255); 
+	font-family:verdana,arial,sans-serif;
+	margin-left:0px;
+	/*Font-size: 1.0em = 10px when browser default size is 16px*/
+}
+.content
+{
+	width:800px;
+	margin-left:0px;
+	z-index:1;
+	position:relative;
+}
+.left_row
+{
+	text-align:left;
+	width:80px;
+}
+.left_align
+{
+	text-align:left;
+}
+.right_align
+{
+	text-align:right;
+}
+no_printed
+{
+	display:none;
+}
+table
+{
+	border-spacing:0;
+}
+table tr
+{
+	margin:0px;
+	padding:0px;
+}
+@font-face 
+{
+	
+	font-family: "Courier Final Draft";
+	src: url(fonts/Courier_Final_Draft.TTF) format(“truetype”);
+}
+.marca_agua
+{
+	width:800px;
+	position:absolute;
+	margin-top:420px;
+	z-index:2;
+	/*filter:alpha(opacity=50);*/
+	font-family:"Courier Final Draft", "Times New Roman", Arial;
+	letter-spacing:4px;
+}
+/* style sheet for "A4" printing */ 
+@media print 
+{
+	body 
+	{
+		font-size:10px;;
+		background-color:rgb(255,255,255); 
+		font-family:"Courier Final Draft", "Times New Roman", Arial;
+		margin-left:0px;
+		letter-spacing:4px;
+		/*Font-size: 1.0em = 10px when browser default size is 16px*/
+	}
+	.content
+	{
+		margin-top:none;
+		background:rgb(240,240,240);
+		overflow:visible !important /*Firefox*/;
+		overflow:hidden /*IE6*/;
+		width:800px;
+		margin-left:0px;
+		z-index:1;
+		position:relative;
+	}
+	@page
+	{
+		size: A4 landscape;
+		margin: 0;
+		padding:0;
+	}
+	.CurrentUser
+	{
+		display:none;
+	}
+}

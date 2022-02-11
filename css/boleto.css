@@ -1,0 +1,69 @@
+@charset "utf-8";
+/********************************/
+/* CSS PARA EL DOCUEMNTO BOLETA */
+/********************************/
+
+/*
+	REALIZADO POR: 	JONATAN RIVERA C.
+	FECHA:			24/09/2011
+	DESCRIPTION:	CSS PARA LAS IMPRESIONES DE BOLETA.
+*/
+body 
+{
+	font-size:13px;;
+	background-color:rgb(255,255,255); 
+	font-family:verdana,arial,sans-serif;
+	margin-left:0px;
+	letter-spacing:4px;
+	/*Font-size: 1.0em = 10px when browser default size is 16px*/
+	font-family: "Courier New", Courier, monospace !important;
+}
+.content
+{
+	width:1300px;
+	margin-left:0px;
+	z-index:1;
+	position:relative;
+}
+.content .left
+{
+	width:80%;
+	float:left;
+}
+
+.content .right
+{
+	float:right; 
+	position:relative;
+	width:20%;
+}
+.content_mozilla
+{
+	width:800px;
+	margin-left:0px;
+	z-index:1;
+	font-size:10px;
+}
+.content_mozilla .left
+{
+	width:80%;
+	float:left;
+	position:relative;
+}
+.content_mozilla .right
+{
+	float:right; 
+	position:relative;
+	width:20%;
+}
+.buttom_doc
+{
+	width:800px;
+	position:absolute;
+	text-align:center;
+	margin-top:320px;
+	z-index:2;
+	/*filter:alpha(opacity=50);*/
+	font-family:"Courier Final Draft", "Times New Roman", Arial;
+	letter-spacing:8px;
+}

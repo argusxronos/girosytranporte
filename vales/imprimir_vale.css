@@ -1,0 +1,188 @@
+/********************************/
+/* CSS PARA EL DOCUEMNTO VALE */
+/********************************/
+
+/*
+	REALIZADO POR: 	RICHARD MELGAR H.
+	FECHA:			28/08/2012
+	DESCRIPTION:	CSS PARA VALES DE PASAJES PAGADOS
+*/
+.Print_Vale
+{
+	width:600px;
+}
+.Print_Vale .vale_content
+{
+	/*height:470px;*/
+}
+.main-content table
+{
+	width:600px;
+	margin:0px;
+}
+
+.print_fila
+{
+	position:relative;
+}
+
+.main-content table th
+{
+	height:18px;
+	text-align:right;
+	letter-spacing:5px;
+}
+.main-content table td
+{
+	/*height:18px;*/
+}
+.Print_Vale .vale_content .text_left
+{
+	width:250px;
+	margin:0;
+	text-align:left;	
+}
+.Print_Vale .vale_content .text_right
+{
+	text-align:right;	
+	text-align:right;
+	letter-spacing:5px;
+}
+.Print_Vale .vale_content .text_center
+{
+	text-align:center;
+}
+
+.firma
+{
+	margin-top:0px;
+}
+.Print_Vale .firma .firma_vale
+{
+	width:100px;
+	text-align:center;
+	vertical-align:bottom;
+}
+.Print_Vale .firma .text_center
+{
+	width:100px;
+	text-align:center;
+	text-transform:capitalize;
+}
+HR
+{
+	width:80%;
+	text-align:center;
+	border-bottom-color:#000000;
+	margin-left:10%;
+	margin-right:10%;
+}
+.page-container .CurrentUser
+{
+	/*display:none;*/
+}
+
+@media print 
+{
+	.Print_Vale
+	{
+		width:350px;
+		margin-top:120px;
+		margin-left:0px;
+	}
+	@page
+	{
+		padding:0;
+	}
+	body 
+	{
+		background-color:rgb(255,255,255); 
+		font-family:Arial, Helvetica, sans-serif;
+		margin-left:0px;
+		/*Font-size: 1.0em = 10px when browser default size is 16px*/
+	}
+	.header
+	{
+		display:none;
+	}
+	.page-container
+	{
+		border:0;
+		margin:0px;
+	}
+	.main-content 
+	{
+		margin:0px;
+	}
+	.footer
+	{
+		display:none;
+	}
+	.Print_Vale .vale_content
+	{
+		height:430px;
+	}
+	.main-content table
+	{
+		font-size:9px;
+		width:350px;
+		margin:0px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main-content table th
+	{
+		letter-spacing:4px;
+		/*line-height:10px;*/
+		font-style:normal;
+	}
+	.Print_Vale .vale_content .num_vale
+	{
+		text-align:left;
+		padding-left:30px;
+		letter-spacing:5px;
+		font-size:9px;
+	}
+	.Print_Vale .vale_content .monto
+	{
+		text-align:right;
+		margin-right:100px;
+		font-size:26px;
+		color:#000000;
+		vertical-align:top;
+		height:80px;
+		letter-spacing:9px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	.Print_Vale .vale_content .text_left
+	{
+		margin:0;
+		text-align:left;
+		letter-spacing:4px;
+		/*line-height:3px;*/
+		
+	}
+	.Print_Vale .vale_content .text_right
+	{
+		text-align:right;
+		letter-spacing:4px;
+		/*line-height:3px;*/
+	}
+	
+	.Print_Vale .vale_content .text_center
+	{
+		text-align:center;
+		letter-spacing:4px;
+		/*line-height:3px;*/
+	}
+	
+	.Print_Vale .firma .text_center
+	{
+		letter-spacing:5px;
+		/*line-height:5px;*/
+	}
+	.page-container .CurrentUser
+	{
+		display:none;
+	}
+}

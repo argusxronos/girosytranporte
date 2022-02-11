@@ -1,0 +1,874 @@
+/*************************************************************/
+/*   Design:   Multiflex-3 Update-7 / Layout-1               */
+/*   File:     Text formats                                  */
+/*-----------------------------------------------------------*/
+/*   Author:   Wolfgang                                      */
+/*   Date:     January 15, 2007                              */
+/*   Homepage: wwww.1-2-3-4.info                             */
+/*-----------------------------------------------------------*/
+/*   License:  Fully open source without restrictions.       */
+/*             Please keep footer credits with a link to     */
+/*             Wolfgang (www.1-2-3-4.info). Thank you!       */
+/*************************************************************/
+
+/******************/
+/*  MAIN SECTION  */
+/******************/
+
+/* MAIN CONTENT */
+.main-content h1.pagetitle {margin:0 0 0.4em 0; padding:0 0 2px 0; border-bottom:solid 7px rgb(225,225,225); font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:220%;}
+.main-content h1.block {clear:both; margin:1.0em 0 0em 0; padding:2px 0 2px 2px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:220%;}
+.main-content h1 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:210%;}
+.main-content h2 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:170%;}
+.main-content h3 {clear:both; margin:-1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(125,125,125); font-weight:normal; font-size:130%;}
+.main-content h1.side {clear:none;}
+.main-content h2.side {clear:none;}
+.main-content h3.side {clear:none;}
+
+.main-content h4 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-weight:normal; font-size:170%;}
+.main-content h5 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-size:140%;}
+.main-content h6 {margin:1.2em 0 0.2em 0; color:rgb(80,80,80); font-weight:bold; font-size:120%;}
+.main-content p {margin:0 0 1.0em 0; line-height:1.5em; font-size:120%;}
+.main-content p.center {text-align:center;}
+.main-content p.right {text-align:right;}
+.main-content p.details {clear:both; margin:-0.25em 0 1.0em 0; line-height:1.0em; font-size:110%;}
+.main-content blockquote {clear:both; margin:0 30px 0.6em 30px; font-size:90%;}
+
+/******************/
+/*  TABLES */
+/******************/
+
+.main-content table 
+{
+	clear:both; 
+	width:780px; 
+	margin:0 0 0.2em 20px;
+	/*table-layout:fixed;*/
+	border-collapse:collapse; 
+	empty-cells:show; 
+	background-color:rgb(233,232,244);
+}
+
+.main-content table th.top 
+{
+	height:3.5em; 
+	padding:0 7px 0 7px; 
+	empty-cells:show; 
+	background-color:rgb(175,175,175); 
+	text-align:left; 
+	color:rgb(255,255,255); 
+	font-weight:bold; 
+	font-size:110%;
+}
+.main-content table th 
+{
+	height:2.0em; 
+	padding:2px 20px 2px 7px;
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	background-color:rgb(225,225,225); 
+	text-align:left; 	
+	color:rgb(80,80,80); 
+	font-weight:bold; 
+	font-size:110%;
+}
+/* para div en vez de tablas
+.main-content div ul 
+{
+	height:2.0em; 
+	padding:2px 20px 2px 7px;
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	background-color:rgb(225,225,225); 
+	text-align:left; 
+	color:rgb(80,80,80); 
+	font-weight:bold; 
+	font-size:110%;
+}
+
+*/
+
+tr { background-color: #DDDDDD}
+
+.initial 
+{
+	background-color: rgb(225,225,225);
+	color:#000000;
+}
+.normal 
+{ 
+	background-color: rgb(225,225,225);
+}
+.highlight 
+{
+	background-color: #D2D2FF;
+	cursor:hand;
+}
+
+
+
+.right_column
+{
+	/* width:180px;*/
+}
+.left_column
+{
+	/*width:250px;*/
+}
+/*
+.main-content table tr th .row
+{
+	width:150px;
+}*/
+.main-content table td 
+{
+	height:2.0em; 
+	padding:2px 7px 2px 7px; 
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	/*background-color:rgb(225,225,225); */
+	text-align:left; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	font-size:110%;
+}
+.main-content table td a
+{
+	height:3.0em;
+	text-align:left; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	font-size:100%;
+}
+
+.main-content table td .vale
+{
+	height:3.0em;
+	text-align:left; 
+	font-weight:normal; 
+	color:#FF0000; 
+	font-size:130%;
+}
+
+.main-content table td .anulado
+{
+	height:3.0em;
+	text-align:left; 
+	font-weight:normal; 
+	color:#FF0000; 
+	font-size:100%;
+}
+.main-content table td .no_verified
+{
+	height:3.0em;
+	text-align:left; 
+	font-weight:normal; 
+	color:#0033FF; 
+	font-size:100%;
+}
+
+.main-content table td input[type="checkbox"]:focus {
+  border-color: #FF0000;
+}
+/******************/
+
+p.caption {clear:both; margin:0.5em 0 2.0em 20px; text-align:left; color:rgb(80,80,80); font-size:110%;}
+
+.main-content ul {list-style:none; margin:0.5em 0 1.0em 0;}
+.main-content ul li {margin:0 0 0.2em 2px; padding:0 0 0 12px; background:url(../img/bg_bullet_full_1.gif) no-repeat 0 0.5em; line-height:1.4em; font-size:120%;}
+.main-content ol {margin:0.5em 0 1.0em 20px !important /*Non-IE6*/; margin:0.5em 0 1.0em 25px /*IE6*/;}
+.main-content ol li {list-style-position:outside; margin:0 0 0.2em 0; line-height:1.4em; font-size:120%;}
+
+.contactform {width:820px; margin:3px 0 3px 0; padding:3px 3px 3PX 3px; border:solid 1px rgb(200,200,200); background-color:rgb(240,240,240);}
+.contactform fieldset {padding:20px 0 0 0 !important /*Non-IE6*/; padding:0 /*IE6*/; margin:0 0 20px 0; border:solid 1px rgb(220,220,220);}
+.contactform fieldset legend {margin:0 0 0 5px !important /*Non-IE*/; margin:0 0 20px 5px /*IE6*/; padding:0 2px 0 2px; color:rgb(80,80,80); font-weight:bold; font-size:130%;}
+.contactform label.left 
+{
+	float:left;
+	width:100px;
+	margin:0 0 0 10px;
+	padding:2px;
+	font-size:110%;
+}
+.contactform select.combo 
+{
+	width:227px; 
+	padding:2px; 
+	border:solid 1px rgb(200,200,200); 
+	font-family:verdana,arial,sans-serif; 
+	font-size:110%;
+}
+.contactform input.field 
+{
+	width:220px; 
+	padding:2px; 
+	border:solid 1px rgb(200,200,200); 
+	font-family:verdana,arial,sans-serif; 
+	font-size:110%;
+}
+/***************************************************/
+/*  CLASES PARA EL CAMPO USUARIO DE UN FORMULARIO  */
+/***************************************************/
+.contactform input.field_user
+{
+	width:220px; 
+	padding:2px; 
+	border:solid 1px rgb(200,200,200); 
+	font-family:verdana,arial,sans-serif; 
+	font-size:110%;
+	text-transform:uppercase;
+}
+
+.contactform textarea {width:275px; padding:2px; border:solid 1px rgb(200,200,200); font-family:verdana,arial,sans-serif; font-size:110%;}
+.contactform input.button 
+{
+	/*float:right; */
+	width:9.0em; 
+	margin-right:20px; 
+	padding:1px !important /*Non-IE6*/; 
+	padding:0 /*IE6*/; 
+	background:rgb(230,230,230); 
+	border:solid 1px rgb(150,150,150); 
+	text-align:center; 
+	font-family:verdana,arial,sans-serif; 
+	color:#000000;
+	font-weight:bold; 
+	font-size:110%;
+}
+input.button
+{
+	/*float:right; */
+	width:9.0em; 
+	margin-right:20px; 
+	padding:1px !important /*Non-IE6*/; 
+	padding:0 /*IE6*/; 
+	background:rgb(230,230,230); 
+	border:solid 1px rgb(150,150,150); 
+	text-align:center; 
+	font-family:verdana,arial,sans-serif; 
+	color:#000000;
+	font-weight:bold; 
+	font-size:110%;
+}
+
+/********************/
+/*  IMPUTS  */
+/********************/
+.contactform input.input_nombres
+{
+	width:465px;
+	text-transform:uppercase;
+	font-size:17px;
+	font-weight:bold;
+	letter-spacing:0px;
+	text-align:center;
+	padding:2px;
+}
+.contactform input.input_documento
+{
+	width:110px;
+	text-align:center;
+	color:#FF0000;
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+.contactform input.input_direccion
+{
+	width:465px;
+	text-transform:uppercase;
+	font-size:17px;
+	font-weight:bold;
+	letter-spacing:0px;
+	text-align:left;
+	padding:2px;
+}
+.contactform input.input_cantidad
+{
+	width:90px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+.contactform input.input_descripcion
+{
+	text-transform:uppercase;
+	width:400px;
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+.contactform input.input_importe
+{
+	width:50px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:1px;
+	
+}
+
+.contactform input.button:hover 
+{
+	cursor: pointer; 
+	border:solid 1px rgb(80,80,80); 
+	/*Para cambiar de color los botonos*/
+	background:rgb(220,220,220); 
+	color:rgb(80,80,80);
+}
+
+.contactform input.radio
+{
+	margin:5px 0 5px 15px;
+}
+
+.loginform {width:160px; margin:-10px 20px 0 20px;}
+.loginform p {clear:both; margin:0; padding:0;}
+.loginform fieldset {width:160px; border:none;}
+.loginform label.top {float:left; width:125px; margin:0 0 2px 0; font-size:110%;}
+.loginform label.right {float:left; width:125px; margin:5px 0 0 0; padding:0 0 0 3px; /*IE6*/; font-size:110%;}
+.loginform input.field {width:158px; margin:0 0 5px 0; padding:0.1em 0 0.2em 0 !important /*Non-IE6*/; padding:0.2em 0 0.3em 0 /*IE6*/; border:solid 1px rgb(200,200,200); font-family:verdana,arial,sans-serif; font-size:110%;}
+.loginform input.checkbox {float:left; margin:5px 0 0 0 !important /*Non-IE6*/; margin:2px 0 0 -3px /*IE6*/; border:none;}
+.loginform input.button {float:left; width:5.0em; margin:10px 0 5px 0; padding:1px; background:rgb(230,230,230); border:solid 1px rgb(150,150,150); text-align:center; font-family:verdana,arial,sans-serif; color:rgb(150,150,150); font-size:110%;}
+.loginform input.button:hover {cursor:pointer; border:solid 1px rgb(80,80,80); background:rgb(220,220,220); color:rgb(80,80,80);}
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+.main img {clear:both; float:left; margin:3px 10px 7px 0; padding:1px; border:1px solid rgb(150,150,150);}
+.main img.center {clear:both; float:none; display:block; margin:0 auto; padding:1px; border:1px solid rgb(150,150,150);}
+.main img.right {clear:both; float:right; margin:3px 0 7px 10px; padding:1px; border:1px solid rgb(150,150,150);}
+
+.main a {color:rgb(70,122,167); font-weight:bold; text-decoration:none;}
+.main-content h1 a {color:rgb(70,122,167); font-weight:normal; text-decoration:none;}
+.main a:hover {color:rgb(42,90,138); text-decoration:underline;}
+.main a:visited {color:rgb(42,90,138);}
+
+.main a img {border:solid 1px rgb(150,150,150);}
+.main a:hover img {border:solid 1px rgb(220,220,220);}
+
+span
+{
+	color:#FF0000;
+	font-size:14px;
+}
+
+
+
+
+.advertisement
+{
+	font-size:150%;
+}
+
+/* ESTILOS PARA VENTA PASAJES */
+
+.main .columnBus-unit {
+	width:860px; 
+	margin-bottom:10px !important /*Non-IE6*/; 
+	margin-bottom:5px /*IE6*/;}
+.main .columnBus-unit .columnBus-unit-left {
+	float:left; 
+	width:250px;  
+	margin-bottom:10px !important /*Non-IE6*/; 
+	margin-bottom:5px /*IE6*/;}
+.main .columnBus-unit .columnBus-unit-right {
+	float:right; 
+	width:590px; 
+	margin-bottom:10px !important /*Non-IE6*/; 
+	margin-bottom:5px /*IE6*/;}
+
+.main .columnBus-unit .columnBus-unit-right h2 {
+	text-align: center;
+}
+.main .columnBus-unit .columnBus-unit-left table{
+	clear:both; 
+	width:100%; 
+	margin:0 0 10px 15px;
+	table-layout: fixed; 
+	border-collapse:collapse; 
+	empty-cells:show; 
+	background-color:rgb(233,232,244);
+	border-style: solid; border: 2px;
+}
+
+.main .columnBus-unit .columnBus-unit-left table th.top 
+{
+	height:3.5em; 
+	padding:0 7px 0 7px; 
+	empty-cells:show; 
+	background-color:rgb(175,175,175); 
+	text-align:center; 
+	color:rgb(255,255,255); 
+	font-weight:bold; 
+	font-size:110%;
+}
+.main .columnBus-unit .columnBus-unit-left table th 
+{
+	height:2.0em; 
+	padding:2px 7px 2px 7px;
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	background-color:rgb(225,225,225); 
+	text-align:center; 
+	color:rgb(80,80,80); 
+	font-weight:bold; 
+	font-size:110%;
+}
+.main .columnBus-unit .columnBus-unit-left tr { background-color: #DDDDDD}
+.main .columnBus-unit .columnBus-unit-left table td 
+{
+	height:2.0em; 
+	padding:2px 7px 2px 7px; 
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	/*background-color:rgb(225,225,225); */
+	text-align:left; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	font-size:110%;
+	text-align: center;
+}
+.main .columnBus-unit .columnBus-unit-left table td a
+{
+	height:3.0em;
+	text-align:left; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	font-size:100%;
+}
+
+.main .columnBus-unit .columnBus-unit-right .unidad_left{
+	float:left; 
+	width:45%;
+
+	border:solid 1px;
+	margin: 0px 0px 0px 0px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	margin:0px 10px 5px 10px;
+	background-color:#EEEEEE;
+}
+
+.main .columnBus-unit .columnBus-unit-right .unidad_right{
+	float:right; 
+	width:45%;
+
+	border:solid 1px;
+	margin: 0px 0px 0px 0px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	margin:0px 10px 5px 10px;
+	background-color:#EEEEEE;
+}
+
+.main .columnBus-unit .columnBus-unit-right table{
+	clear:both;
+	width: 93%;
+	margin:0 0 10px 10px;
+	table-layout: fixed; 
+	border-collapse:collapse; 
+	empty-cells:show; 
+	background-color:#EEEEEE;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td 
+{
+	height:2.0em; 
+	padding:0px 0px 0px 0px; 
+	border-left:solid 2px rgb(255,255,255); 
+	border-right:solid 2px rgb(255,255,255); 
+	border-top:solid 2px rgb(255,255,255); 
+	border-bottom:solid 2px rgb(255,255,255); 
+	/*background-color:rgb(225,225,225); */
+	text-align:center; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	background-color:#EEEEEE;
+	font-size:110%;
+	cursor:pointer; /* MOZILLA */
+	cursor:hand; /* IE */
+}
+.main .columnBus-unit .columnBus-unit-right table td #tripulacion
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/tripu.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #libre
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/libre.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #vendidoM
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/M.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+.main .columnBus-unit .columnBus-unit-right table td #vendidoF
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/F.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #reservado
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/R.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #reservaPagada
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/rp.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #escalera
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/esc.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #tv
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/tv.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #banio
+{
+	width: 40px;
+	height: 40px;
+	background: url('../images/bus/banio.jpg') no-repeat;
+	display: block;
+	margin: auto;
+}
+
+.main .columnBus-unit .columnBus-unit-right table td #libre span,
+.main .columnBus-unit .columnBus-unit-right table td #vendidoM span,
+.main .columnBus-unit .columnBus-unit-right table td #vendidoF span,
+.main .columnBus-unit .columnBus-unit-right table td #reservado span,
+.main .columnBus-unit .columnBus-unit-right table td #reservaPagada span
+{
+	font-size: 170%;
+	color: red;
+	display:inherit;
+	padding-top: 9px;
+}
+.main .columnBus-unit .columnBus-unit-right table td #libre span:hover,
+.main .columnBus-unit .columnBus-unit-right table td #vendidoM span:hover,
+.main .columnBus-unit .columnBus-unit-right table td #vendidoF span:hover,
+.main .columnBus-unit .columnBus-unit-right table td #reservado span:hover,
+.main .columnBus-unit .columnBus-unit-right table td #reservaPagada span:hover
+{
+	color: blue;
+	font-size: 180%;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+
+.main .columnBus-unit .columnBus-unit-right table td img
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	border-style: none;
+}
+
+.main .columnBus-unit .columnBus-unit-left  .normal 
+{ 
+	background-color: rgb(225,225,225);
+}
+.main .columnBus-unit .columnBus-unit-left  .highlight 
+{
+	background-color: #D2D2FF;
+	cursor:pointer; /* MOZILLA */
+	cursor:hand; /* IE */
+}
+/*=================================*/
+/* FORMULARIO OCULTO
+/*=================================*/
+.oculto{ display:none;}
+#divBloqueador, #divBloqueadorMensaje
+{
+	position:absolute; 
+	width:100%;
+	height:1210px; 
+	background:#000000; 
+	opacity:0.6; 
+	display:none; 
+	z-index:100; 
+	top:0; 
+	left:0;
+}
+/*=================================*/
+/* FORMULARIO PEQUENIOS
+/*=================================*/
+#itemIngreso
+{float:left;  padding:0.5em; }
+
+
+#divIngresoPequenios, 
+#divVenta, 
+#divReserva, 
+#divDerivada, 
+#divMensaje, 
+#divDetalle,
+#divIngresoGrande
+{
+	position:fixed;
+	background:#FFFFFF;
+	top:50%;
+	left:50%;
+	width:600px;
+	height:320px;
+	margin-top:-170px;
+	margin-left:-310px;
+	padding:0.5em;
+	border:10px solid #CCCCCC;
+	-moz-border-radius:
+	10px;
+	-webkit-border-radius:10px;
+	z-index:550;
+}
+#divSelectCliente
+{
+	position:fixed;
+	background:#FFFFFF;
+	top:50%;
+	left:50%;
+	width:600px;
+	height:320px;
+	margin-top:-170px;
+	margin-left:-310px;
+	padding:0.5em;
+	border:10px solid #CCCCCC;
+	-moz-border-radius:
+	10px;
+	-webkit-border-radius:10px;
+	z-index:650;
+}
+#divSelectCliente { width:500px; margin-left:-260px; height:300px; margin-top:-145px; }
+#divIngresoPequenios, 
+#divVenta, 
+#divReserva, 
+#divDerivada,
+#divDetalle { font-size: 145%;  width:800px; margin-left:-405px; height:450px; margin-top:-260px; }
+
+/***************************************/
+/***********FORMULARIO******************/
+/***************************************/
+
+#divIngresoPequenios h2, 
+#divVenta h2, 
+#divReserva h2, 
+#divDerivada h2,
+#divDetalle h2
+{
+	color: red;
+	text-align: center;
+}
+
+#divVenta form .claveValor,
+#divReserva form .claveValor,
+#divDerivada form .claveValor,
+#divDetalle form .claveValor
+{margin-bottom:.5em; }
+
+#divVenta form table,
+#divReserva form table,
+#divDerivada form table,
+#divDetalle form table
+{
+	margin-bottom:.5em;
+}
+
+#divVenta form table td,
+#divReserva form table td,
+#divDerivada form table td,
+#divDetalle form table td
+{
+	background:rgb(250,250,250); 
+}
+
+#divVenta form input,
+#divReserva form input,
+#divDerivada form input,
+#divDetalle form input
+{padding:2px; 
+border: solid 1px;}
+
+#divVenta form .claveValor label,
+#divReserva form .claveValor label,
+#divDerivada form .claveValor label
+#divDetalle form .claveValor label
+{float:left; width:80px; margin-left:10px; color:#000;}
+
+#divVenta form fieldset,
+#divReserva form fieldset,
+#divDerivada form fieldset
+#divDetalle form fieldset
+{
+	padding-top:1em;
+	text-align:left;
+	font-size: 12px;
+}
+
+#divVenta form fieldset .fieldset_left,
+#divReserva form fieldset .fieldset_left,
+#divDerivada form fieldset .fieldset_left,
+#divDetalle form fieldset .fieldset_left
+{padding-top:1em; text-align:left; }
+
+#divVenta form fieldset .fieldset_right,
+#divReserva form fieldset .fieldset_right,
+#divDerivada form fieldset .fieldset_right
+#divDetalle form fieldset .fieldset_right
+{padding-top:1em; text-align:left; }
+
+
+#divVenta form legend,
+#divReserva form legend,
+#divDerivada form legend,
+#divDetalle form legend
+{text-align:center;}
+
+#divVenta form table input,  
+#divVenta form table select,
+#divReserva form table input,  
+#divReserva form table select,
+#divDerivada form table input,  
+#divDerivada form table select,
+#divDetalle form table input,  
+#divDetalle form table select
+{/*border:none;*/}
+
+#divVenta form select,
+#divReserva form select,
+#divDerivada form select,
+#divDetalle form select
+{
+	width: 150px;
+	background-color:#FFF;
+	padding: 2px;
+	color: #000;
+	border: 1px solid #393939;
+	/*margin-bottom: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;*/
+}
+
+#divVenta form .text,
+#divReserva form .text,
+#divDerivada form .text,
+#divDetalle form .text
+{
+	width: 150px;
+	background-color:#FFF;
+	padding: 2px;
+	color: #000;
+	border: 1px solid #393939;
+	margin-bottom: 5px;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;*/
+	/*font-size: 16px;*/
+}
+#divVenta form .submit,
+#divVenta form .reset,
+#divVenta form .search,
+#divReserva form .submit,
+#divReserva form .reset,
+#divReserva form .search,
+#divDerivada form .submit,
+#divDerivada form .reset,
+#divDerivada form .search,
+#divDetalle form .submit,
+#divDetalle form .reset,
+#divDetalle form .search
+{
+	width: 100px;
+	background-color:#CCC;
+	font-weight:bold;
+	padding: 2px;
+	color: #000;
+	border: 1px solid #393939;
+	margin-bottom: 5px;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;*/
+	/*font-size: 16px;*/
+}
+#divVenta form .submit:hover,
+#divVenta form .reset:hover,
+#divReserva form .submit:hover,
+#divReserva form .reset:hover,
+#divDerivada form .submit:hover,
+#divDerivada form .reset:hover,
+#divDetalle form .submit:hover,
+#divDetalle form .reset:hover
+{
+	width: 100px;
+	background-color: #333;
+	font-weight:bold;
+	padding: 2px;
+	color: #fff;
+	border: 1px solid #393939;
+	margin-bottom: 5px;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;*/
+	/*font-size: 16px;*/
+}
+.parrafoCerrar {float:right; margin:0; }
+.inputPequenio{width: 40px;}
+.inputSerie{width: 60px;}
+.inputGuia{width: 110px;}
+.inputNormal{width: 150px;}
+.inputLargo{width: 190px;}
+#divVenta form .fieldBusqueda
+{
+	width:400px;
+}

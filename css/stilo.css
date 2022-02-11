@@ -1,0 +1,552 @@
+/********************************/
+/* CSS PARA VENTA Y RESERVA DE PASAJES PARA CADA BUS*/
+/********************************/
+
+/*
+	REALIZADO POR: 	RICHARD MELGAR H.
+	FECHA:			01/08/2012
+	DESCRIPTION:	CSS PARA LAS RESERVAS Y VENTAS DE PASAJES POR CADA BUS.
+*/
+
+#contenido{
+	width:100%;
+	height:100%;
+	margin: 10px 0px 0px 12%;	
+	text-align:center;
+	background-color:#000000;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+}
+#contenido_izquierdo{
+	float:left;
+	width:30.5%;
+	height:95%;
+	border:solid 1px;
+	margin: 0px 0px 0px 15px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:0px 10px 5px 10px;
+	background-color:#EEEEEE;	
+}
+/*
+#contenido_izquierdo2{
+	float:right;
+	width:97.8%;
+	height:96%;
+	border:solid 1px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+	background-color:#EEEEEE;
+	
+}
+* */
+/*
+#contenido_izquierdo img{
+	width:100%;
+	height:100%;
+}
+* */
+#contenido_derecho{
+	float:left;
+	width:30.5%;
+	height:100%;
+	margin: 0px 0px 0px 10px;
+	position:relative;
+	border:solid 1px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:0px 10px 5px 10px;
+	background-color:#EEEEEE;
+}
+
+#contenido p{
+	margin:0px 50px 0px 50px;
+	font-weight:bold;
+	color:#000000;
+	/*
+	font-style:italic;
+	display:block;*/
+}
+#contenido table{
+	width:93%;
+	height:100%;
+	-moz-border-redius:10px 10px 10px 10px;
+	webkit-border-redius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	clear:both; 	
+	margin:0 0 0.5em 10px;
+	table-layout: fixed; 
+	border-collapse:collapse; 
+	empty-cells:show; 
+	background-color:#EEEEEE;	
+}
+#contenido table td{
+	background-color:#EEEEEE;	
+	padding:2px 7px 2px 7px; 
+	border-left:solid 0px ; 
+	border-right:solid 0px ; 
+	border-top:solid 0px ; 
+	border-bottom:solid 0px ; 	
+	text-align:center; 
+	font-weight:normal; 
+	color:rgb(80,80,80); 
+	font-size:110%;
+}
+#asterisco{
+	color:#FF0000;
+	font-weight:bold;
+}
+#formulario form{	
+	width:95%;
+	height:100px;
+	border:solid 1px;
+	margin: 0px 0px 0px 15px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	padding:0px 10px 5px 0px;
+	background-color:#E1E1E1;	
+}
+#formulario2 form{	
+	width:95%;
+	height:100%;		
+	background-color:#FFFFFF;	
+}
+#formulario p{
+	margin:0px 50px 0px 50px;
+	font-weight:bold;
+	color:#000000;
+}
+#formulario2 p{
+	height:2.0em; 
+	padding:2px 20px 2px 20px;	
+	text-align:left; 
+	color:rgb(80,80,80); 
+	font-weight:bold; 
+	font-size:110%;
+}
+#contenido img{
+	border:0px;
+}
+
+/*CSS PARA IMAGES DE ASIENTOS SEGUN ESTADO DE CADA PERSONA*/
+
+.libre{	
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;
+	margin-bottom:0px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;	
+	/*background:url("http://www.excluciva.pe/online2/images/ico/libre.jpg") no-repeat scroll center center transparent; */
+	background:url("../images/libre.bmp") no-repeat scroll center center transparent; 	
+}
+
+.vendidoM{	
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;
+	margin-bottom:0px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;	
+	/*background: url("http://www.excluciva.pe/online2/images/ico/vendido.jpg")no-repeat scroll center center transparent; */
+	background:url("../images/M.bmp") no-repeat scroll center center transparent;
+
+}.vendidoF{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;
+	margin-bottom:0px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;
+	background:url("../images/F.bmp") no-repeat scroll center center transparent; 	
+}
+.reservado{	
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;
+	margin-bottom:0px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;		
+	/*background: url("http://www.excluciva.pe/online2/images/ico/carro.jpg")no-repeat scroll center center transparent; */
+	background: url("../images/reservado1.bmp") no-repeat scroll center center transparent; 
+}
+
+.libre span,
+.vendidoM span,
+.vendidoF span,
+.reservado span{
+	font-weight:bold;
+	font-size:18px;
+	color:#C10000;
+	position:relative;
+}
+.HUANCAYO-PRINCIPAL{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/hyo.bmp")no-repeat scroll center center transparent; 
+}
+.AGUAYTIA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/agu.bmp")no-repeat scroll center center transparent; 
+}
+.AYACUCHO{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/aya.bmp")no-repeat scroll center center transparent; 
+}
+.CONCEPCION{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/com.bmp")no-repeat scroll center center transparent; 
+}
+.REAL_HUANCAYO{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/rea.bmp")no-repeat scroll center center transparent; 
+}
+.ATAHUALPA-HUANCAYO{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/ata.bmp")no-repeat scroll center center transparent; 
+}
+.HUANTA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/hta.bmp")no-repeat scroll center center transparent; 
+}
+.HUANUCO-AGUILAR{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/agi.bmp")no-repeat scroll center center transparent; 
+}
+.HUANUCO-TARAPACA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/tar.bmp")no-repeat scroll center center transparent; 
+}
+.JAUJA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/jau.bmp")no-repeat scroll center center transparent;
+}
+.ARRIOLA_LIMA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/arr.bmp")no-repeat scroll center center transparent;
+}
+.LUNA_PIZARRO_LIMA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/lpi.bmp")no-repeat scroll center center transparent;
+}
+.LIMA-VITARTE{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/vit.bmp")no-repeat scroll center center transparent;
+}
+.MAZAMARI{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/maz.bmp")no-repeat scroll center center transparent;
+}
+.PICHANAKI{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/pnk.bmp")no-repeat scroll center center transparent;
+}
+.PUCALLPA-KM42,.PUCALLPA_RAY,.KM_86{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/puc.bmp")no-repeat scroll center center transparent;
+}
+.SAN_MARTIN_DE_PANGOA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/smp.bmp")no-repeat scroll center center transparent;
+}
+.SATIPO{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/sat.bmp")no-repeat scroll center center transparent;
+}
+.SAO_PAULO_BRASIL{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/tmr.bmp")no-repeat scroll center center transparent;
+}
+.TINGO_MARIA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/tgm.bmp")no-repeat scroll center center transparent;
+}
+.CHOSICA{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/cho.bmp")no-repeat scroll center center transparent;
+}
+.AMBO{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/amb.bmp")no-repeat scroll center center transparent;
+}
+.LA_MERCED{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/mer.bmp")no-repeat scroll center center transparent;
+}
+.SAN_RAMON{
+	cursor:pointer;
+	font-weight:700;
+	height:39px;
+	width:39px;	
+	text-align:center;
+	vertical-align:middle;
+	line-height: 3.5em;			
+	background: url("../images/estados/ram.bmp")no-repeat scroll center center transparent;
+}
+.HUANCAYO-PRINCIPAL span,
+.AGUAYTIA span,
+.AYACUCHO span,
+.CONCEPCION span,
+.REAL_HUANCAYO span,
+.ATAHUALPA-HUANCAYO span,
+.HUANTA span,
+.HUANUCO-AGUILAR span,
+.HUANUCO-TARAPACA span,
+.JAUJA span,
+.ARRIOLA_LIMA span,
+.LUNA_PIZARRO_LIMA span,
+.LIMA-VITARTE span,
+.MAZAMARI span,
+.PICHANAKI span,
+.PUCALLPA-KM42 span,
+.PUCALLPA_RAY span,
+.KM_86 span,
+.SAN_MARTIN_DE_PANGOA span,
+.SATIPO span,
+.SAO_PAULO_BRASIL span,
+.TINGO_MARIA span,
+.CHOSICA span,
+.AMBO span,
+.LA_MERCED span,
+.SAN_RAMON span{
+	font-weight:bold;
+	font-size:18px;
+	color:#C10000;
+	position:relative;
+}
+/*FIN DE CSS PARA IMAGES DE ASIENTOS SEGUN ESTADO DE CADA PERSONA*/
+
+/*Inicio de CSS para los tabs */
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;	
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/*Inicio de CSS para el contenido del tab */
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+/*Fin de css*/
+
+
+/* css Para botones de las tablas*/
+.cliform input.button 
+{
+	/*float:right; */
+	width:9.0em; 
+	margin-right:20px; 
+	padding:1px !important /*Non-IE6*/; 
+	padding:0 /*IE6*/; 
+	background:rgb(230,230,230); 
+	border:solid 1px rgb(150,150,150); 
+	text-align:center; 
+	font-family:verdana,arial,sans-serif; 
+	color:#000000;
+	font-weight:bold; 
+	font-size:110%;
+}
+.cliform input.button:hover 
+{
+	cursor: pointer; 
+	border:solid 1px rgb(80,80,80); 
+	/*Para cambiar de color los botonos*/
+	/*background:rgb(220,220,220); */
+	background:#FFFFFF;
+	color:rgb(80,80,80);
+}
+/*fin de botones de tablas*/
+

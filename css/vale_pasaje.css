@@ -1,0 +1,324 @@
+/********************************/
+/* CSS PARA EL DOCUEMNTO BOLETA */
+/********************************/
+
+/*
+	REALIZADO POR: 	RICHARD MELGAR H.
+	FECHA:			27/08/2012.
+	DESCRIPTION:	CSS PARA LA IMPRESION DE VALE DE PASAJE PAGADO.
+*/
+
+body 
+{
+	font-size:80%;
+	background-color:rgb(255,255,255); 
+	font-family:verdana,arial,sans-serif;
+	margin-left:0px;
+	/*Font-size: 1.0em = 10px when browser default size is 16px*/
+}
+.content
+{
+	width:400px;
+	margin-left:0px;
+	z-index:1;
+	position:relative;
+}
+
+@font-face 
+{
+	
+	font-family: "Courier Final Draft";
+	src: url(fonts/Courier_Final_Draft.TTF) format(�truetype�);
+}
+.monto
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 26px;
+	margin-left: 270px;
+	margin-top: 75px;
+	z-index: :2;
+	font-family: "Courier_Final_Draft","time New Roman", Arial;
+	font-weight: lighter;;
+	letter-spacing: 5px;
+}
+.cliente
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 130px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.nombre
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 130px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.detalle
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 155px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.detalle_pasaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 155px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.nro_guia
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 180px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.nro_guia_pasaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 180px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.f_viaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 205px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.fecha_viaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 205px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.h_viaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 230px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.hora_viaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 230px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.origen
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 255px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.origen_pasaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 255px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.destino
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 280px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.destino_pasaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 280px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.nro_pasaje
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 305px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.nro_pasaje_boleto
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 305px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.fecha
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 330px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.fecha_hoy
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 330px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.hora
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 355px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.hora_hoy
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 355px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.usuario
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 380px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.trabajador
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 170px;
+	margin-top: 380px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+.firma
+{	
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 140px;
+	margin-top: 450px;	
+	font-family: "Courier_Final_Draft","time New Roman", Arial;	
+	letter-spacing: 3px;
+}
+
+
+/* style sheet for "A4" printing */ 
+@media print 
+{
+
+	body 
+	{
+		font-size:8px;
+		background-color:rgb(255,255,255); 
+		font-family:arial,verdana,sans-serif;
+		margin-left:0px;
+		letter-spacing:4px;
+		/*Font-size: 1.0em = 10px when browser default size is 16px*/
+	}
+	.content
+	{
+		margin-top:none;
+		background:rgb(240,240,240);
+		overflow:visible !important /*Firefox*/;
+		overflow:hidden /*IE8*/;
+		width:800px;
+		margin-left:0px;
+		z-index:1;
+		position:relative;
+	}
+	@page
+	{
+		
+		size: A4 landscape;
+		margin: 0;
+		padding:0;
+	}
+	.CurrentUser
+	{
+		display:none;
+	}
+	
+	.buttom_doc
+	{
+		width:800px;
+		position:absolute;
+		text-align:center;
+		margin-top:320px;
+		z-index:2;		
+		font-family:"Courier Final Draft", "Times New Roman", Arial;
+		letter-spacing:8px;
+	}
+	
+}
